@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!-- VERSÃO DO HTML -->
+<html lang="pt-br"> <!-- LINGUA E TEG DO HTML -->
+
+<head> <!-- CONFIGURAÇÃO DO SITE -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla - Treino dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img class="Logo" src=".//img/logo.png" alt="Tesla logo">
+
+    <ul class="lista">
+
+        <!-- ITEM 1 -->
+        <li class="item">
+            <video autoplay loop muted src=".//img/model-y.mp4"></video>
+
+            <div class="Info-carro">
+                <H1>Tesla</H1>
+                <p class="sub-titulo">Parcelas a partir de 590,99 dolares</p>
+            </div>
+            <div class="rodape">
+                <button class="Test-Drive">Go-Teste-Driver</button>
+                <button onclick="aparecerFormulario()">Comprar Agora</button>
+            </div>
+        </li>
+        <!-- ITEM 2 -->
+        <li class="item">
+            <img class="img-Tesla" src=".//img/model-x.png" alt="Modelo X">
+
+            <div class="Info-carro">
+                <h1 class="modelo-cor-preta">Model X</h1>
+                <p class="sub-titulo">Parcelas a partir de 590,99 dolares</p>
+            </div>
+        </li>
+        <!-- ITEM 3 -->
+        <li class="item">
+            <img class="img-Tesla" src="./img/model-3.png" alt="Model 3">
+
+            <div class="Info-carro">
+                <h1>Model S</h1>
+                <p class="sub-titulo">Parcelas a partir de 590,99 dolares</p>
+            </div>
+            <div class="rodape-2">
+                <p class="texto-rodape">Não garantimos o veiculo imediatamente. Confira no nosso estoque</p>
+            </div>
+        </li>
+    </ul>
+
+        <div class="formulario">
+            <button class="Deixarvermelho" onclick="desaparecerFormulario()">Fechar</button>
+            <script type="text/javascript" src="https://form.jotform.com/jsform/242015173423041"></script>
+        </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Site Tesla - Todos os direitos reservados.</p>
+        </div>
+    </footer>      
+
+</body>
+
+<script src="scrips.js"></script>
+
+</html>
