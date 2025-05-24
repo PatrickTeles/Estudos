@@ -12,7 +12,7 @@ html {
 }
 
 html ::-webkit-scrollbar {
-    width: 10px;
+    width: 2px;
   }
   
   html ::-webkit-scrollbar-thumb {
@@ -120,13 +120,14 @@ h1 {
 }
 
 .formulario {
-    position: fixed;
+    position: absolute;
     z-index: 3;
     top: 20px;
-    width: 600px;
-    height: 1%;
-    left: -50%;
-    transition: 1.5s;
+    width: 450px;
+    height: 325px;
+    left: -100%;
+    transition: 1.75s;
+    overflow: auto;
 }
 
 
